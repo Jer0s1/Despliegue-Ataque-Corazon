@@ -51,10 +51,10 @@ if st.button('Predecir'):
 
     # 6. Mostrar resultado
     if pred == 1:
-        st.error(f'⚠️ Alto riesgo de ataque al corazón  '
+        st.error(f' Alto riesgo de ataque al corazón  '
                  f'(probabilidad: {pred_prob[1]*100:.1f}%)')
     else:
-        st.success(f'✅ Bajo riesgo de ataque al corazón  '
+        st.success(f' Bajo riesgo de ataque al corazón  '
                    f'(probabilidad de riesgo: {pred_prob[1]*100:.1f}%)')
 
     st.warning('El modelo tiene una precisión del 73%')
